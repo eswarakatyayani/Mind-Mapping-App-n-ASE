@@ -1,0 +1,140 @@
+.card-header {
+    background-color: #b4d0fa;
+}
+.card:hover > .card-body{
+    opacity: 1;
+    height: 660px;
+    background-color: #b4d0fa;
+}
+.card-body1, .card-body2 {
+    height: 0;
+    opacity: 0;
+    background-color:#f0f4fa;
+    transition:background-color 2s, height 2s, opacity 2.5s linear ;
+}
+
+.card:hover > .card-body2{
+    opacity: 1;
+    height: 250px;
+    background-color: #b4d0fa;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: 2px solid white;
+}
+
+.menu-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #303845;
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    transition:border-right 1s linear ;
+}
+.menu-icon:hover {
+    border-right: none;
+    border-bottom: none;
+    transition:border 1s linear ;
+}
+.menu-items {
+    opacity: 0;
+    height: 100vh;
+    width: 0px;
+    background-color: #303845;
+    color: white;
+    transition:width 1s linear ;
+}
+.menu:hover > .menu-items {
+    opacity: 1;
+    width: 200px;
+}
+.menu-item{
+    padding: 10px 20px;
+}
+
+.menu-item:hover{
+    transform: scale(1.1);
+    background-color: #040405;
+}
+
+.icons-panel {
+    width: 100%;
+    background-color: #303845;
+    height: 150px;
+}
+#icon-panel {
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    height: 120px;
+    overflow: auto;
+    
+}
+.icon-item:hover {
+    transform: scale(1.1);
+    border: 1px solid white;
+}
+.icon-item{
+    font-size: 25px;
+    text-align: center;
+    padding: 2px;
+    cursor: pointer;
+}
+.line1{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    cursor: pointer;
+}
+.line2{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    cursor: pointer;
+}
+.line3{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    cursor: pointer;
+}
+.line4{
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    cursor: pointer;
+}
+.line5{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+.line1:hover {
+    outline: 1px solid white;
+}
+.line1:hover, .line2:hover, .line3:hover, .line4:hover, .line5:hover {
+    outline: 1px solid white;
+}
+
+.action_icon{
+    padding: 4px;
+}
+.action_icon:hover{
+    outline: 1px solid white;
+    cursor: pointer;
+    padding: 2px;
+}
+#sketch_panel{
+    width: 100%;
+    height: calc(100vh - 150px);
+}
